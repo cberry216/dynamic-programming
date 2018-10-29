@@ -3,7 +3,6 @@ def getLCSSeq(path, seq):
     j = len(path[0]) - 1
 
     subSeq = ""
-    next = 0
 
     while i >= 1 and j >= 1:
         next = path[i][j]
