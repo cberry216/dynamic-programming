@@ -47,7 +47,7 @@ def longestCommonSeq(seq1, seq2):
     return LCS[len(seq1)][len(seq2)], getLCSSeq(Path, seq2)
 
 
-print(longestCommonSeq("ANSBSADBAIBDAS", "JBASDFKHBDASJFBA"))
+print(longestCommonSeq("SPANKING", "AMPUTATION"))
 
 p = [[(0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)],
      [(0, 0), (0, 1), (0, 2), (0, 3), (0, 3), (1, 4), (0, 5)],
