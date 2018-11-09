@@ -1,1 +1,8 @@
 .vscode
+
+test
+
+*.java
+*.class
+
+*.txt
